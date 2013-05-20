@@ -1,10 +1,10 @@
 #DynDNS bot
 
-Starting from 13 of May of 2013, DynDNS started requiring its free user to log
+Starting from 13 of May of 2013, DynDNS started requiring its free users to log
 in DynDNS portal every 30 days in order to maintain their accounts or switch to
 DynDNS Pro (using ddclient is not sufficient).
 
-Of course, this a big nuisance for free users, who surely have better things to
+Of course, this a big nuisance for users, who surely have better things to
 remember than the last time they log in DynDNS portal.
 
 So this is a little script for Linux that logs in your DynDNS account
@@ -18,6 +18,7 @@ can check the bot is working properly.
 
 #Requirements
 
+ * Firefox
  * python-selenium
  * PyVirtualDisplay
  * xorg-server-xvfb
@@ -26,8 +27,7 @@ can check the bot is working properly.
 
 #How to install
 
-Install xorg-server-xvfb and xorg-server-xephyr (this last is optional) from
-your distro packages.
+Install xorg-server-xvfb and xorg-server-xephyr from your distro packages.
 
 Install a python virtualenv within that directory and activate it:
 
@@ -55,12 +55,12 @@ Run the script with the following command.
 
     python dyndns.py -v
 
-**Note:** `-v` tells the bot to show you his screen. In order to use it you
-need to have Xephyr installed.
+**Note:** `-v` tells the bot to show you his screen. In order to use this
+mode you need to have Xephyr installed.
 
 Everything is ok? Now remove the `-v` and check you still get no error (no
 output) and a screenshot has been created on the path you wrote in your
-settings.
+settings (you should have two right now).
 
 #One line command to run the bot
 
