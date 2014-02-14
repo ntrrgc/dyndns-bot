@@ -75,7 +75,7 @@ Replace `<PATH>` with the full path you installed the bot into.
 Make sure you have cron installed (in whatever flavour) and running.
 
 In case you use an *anacron-like* flavour of cron (i.e. *cronie*) you may have
-a directory like `/etc/crond.daily`. Use it to store a cron script. Here is an
+a directory like `/etc/cron.daily`. Use it to store a cron script. Here is an
 example:
 
     #!/bin/bash
