@@ -1,5 +1,8 @@
 #DynDNS bot
 
+**Notice (2):** As DynDNS has completely cancelled all its free domain names,
+this project is no longer relevant.
+
 **Notice:** If the bot stops working, please update Selenium: `./env/bin/pip install --upgrade Selenium`. There has been a recent issue which prevented Selenium to work with latests versions of Firefox.
 
 Starting from 13 of May of 2013, DynDNS started requiring its free users to log
